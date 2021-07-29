@@ -1,12 +1,11 @@
 @font-face{font-family: madetommmy; src: url(madetommmy.otf); text-rendering: optimizeLegibility;}
 html{scroll-behavior: smooth;}
 p::selection{color: #f4a71d;}
-body{font-family: madetommmy; margin:0;font-size: 1.5rem; font-weight: 400;line-height: 1.5;} /*Make border margins disappear by margin:0*/
+body{font-family: madetommmy; margin:0;font-weight: 400;line-height: 1.5;} /*Make border margins disappear by margin:0*/
 header{background-color: #151517;}
 @media only screen and (max-width: 480px) {
     p#abouts {
-      text-align: none;
-      background-color: white;
+      text-align: center;
     }
   }
 h1{color: #ffffff;}
