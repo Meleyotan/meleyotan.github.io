@@ -1,0 +1,131 @@
+@font-face{font-family: madetommmy; src: url(madetommmy.otf); text-rendering: optimizeLegibility;}
+html{scroll-behavior: smooth;}
+p::selection{color: #f4a71d;}
+body{font-family: madetommmy; margin:0;font-size: 1.5rem; font-weight: 400;line-height: 1.5;} /*Make border margins disappear by margin:0*/
+header{background-color: #151517;}
+@media only screen and (max-width: 480px) {
+    p#abouts {
+      text-align: none;
+      background-color: white;
+    }
+  }
+h1{color: #ffffff;}
+p#size{color: #c98546;text-align: center;padding-top: 1%; margin-top: 0;}/*Make paragraph margins disappear by margin-top:0*/
+main{background-color: #282a29;padding-top: 16%;padding-bottom: 16%;border-bottom-style: ridge;}
+nav{padding-bottom: 1%;}
+nav ul{list-style: none;}
+nav ul li{display: inline;}
+nav ul li a{margin-right: 20px;}
+.btn-primary{border: none;
+    color: white;
+    box-shadow: 0 0 0 .25rem rgba(20,160,133,.5);
+    padding: 1rem 1.75rem;
+    font-size: 1.25rem;
+    background: #000000;
+    outline: 0;
+    font-weight: 400;
+    cursor: pointer;
+    border-width: 2px;
+}
+img#profile_picture{width: 30%;margin-left: auto; margin-right: auto; display: block; border-right-style: ridge;}
+div#align{margin-right: auto; margin-left: auto;background-color: #282a29;text-align: center;padding: 6%;color: white;border-top-style: ridge;}
+div#no{margin-right: auto; margin-left: auto;text-align: center;background-color: #233242;padding: 6%;color: white;}
+div#shift{text-align: center;}
+a{color: white; text-decoration: none;}
+a.brown:hover{transform: scale(0.7); color: #634832;}
+div#horizontal-list{text-align: center;}
+div.service{background-color: #2c2c2c; padding: 5px;margin-top: 2%;width: 80%; margin-inline: auto; padding: 5%;}
+div#shift > p{color: #ffffff;}
+span#hello{color: #c98546; text-transform: uppercase;letter-spacing: 3px;}
+div#footer{background: #333130; padding: 6%;text-align: center;}
+img.icons{width: 5%; display: inline-block; vertical-align: middle; margin-right: 2%;}
+img.icons:hover{animation-name: enlarge; animation-duration: 1s; animation-fill-mode: forwards;}
+@keyframes enlarge{
+    100%{
+        transform: scale(1.2)
+    }
+}
+p#contacts{font-size: 2pc;color: #dda61b;}
+img.whats{width: 10%;vertical-align: middle;margin-right: 2%;}
+span#hyphen{color: #634832;}
+p#credits{color: #c98546;}
+p#note{color: #c98546;}
+div.media_icon{margin-top: 15px;}
+p#send{color:  #c98546;}
+p#abouts{width: 80%;margin-inline: auto;text-align: justify;}
+/* div#profilepicture{background: #2c2c2c;} */
+div.mb-5{
+    margin-bottom: 3rem;
+    padding-bottom: .5rem;
+}
+section h2{
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+h2.text-uppercase{
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+hr.star-dark{
+    text-align: center;
+    max-width: 15rem;
+    border-color: #233242;
+    border-top: solid .25rem;
+    margin-top: 2.5rem;
+}
+hr:not([size]){
+    height: 1px;
+}
+div.container{
+    width:100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 720px;
+}
+.form-floating{
+    border-bottom: 1px solid #dee2e6;
+}
+.form-floating > .form-control:focus, .form-floating > .form-control:not(:placeholder-shown) {
+    padding-top: 1.625rem;
+    padding-bottom: .625rem;
+  }
+  
+  .form-floating input:focus, .form-floating textarea:focus {
+    border: none;
+    box-shadow: none;
+    padding-bottom: .625rem;
+  }
+  
+  .form-floating > .form-control {
+    padding: 1rem .75rem;
+  }
+  
+  .form-floating > .form-control, .form-floating > .form-select {
+    height: calc(3.5rem + 2px);
+    line-height: 1.25;
+    display: block;
+    width: 100%;
+  }
+  
+  .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #8cdece;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(24,188,156,.25);
+  }
+  
+  .form-floating input, .form-floating textarea {
+    font-size: 1em;
+    border: none;
+    font-family: inherit;
+  }
+label{display: none;}
+section#contact{
+    padding: 6rem 0;
+}
+
+
+  
+  
